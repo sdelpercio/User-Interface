@@ -72,10 +72,12 @@ section {
 /* NAVBAR STYLES HERE */
 #navbar {
 	margin: 4% 4% 6% 4%;
+	width: 100%;
 }
 #navbar nav{
 	display: inline-block;
-	width: 80%;
+	width: 70%;
+	text-align: center;
 }
 #navbar nav > a {
 	text-decoration: none;
@@ -84,7 +86,6 @@ section {
 }
 #navbar img {
 	display: inline-block;
-	float: right;
 	width: 18%;
 }
 /* HEADING STYLES HERE */
