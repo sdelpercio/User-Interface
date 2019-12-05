@@ -64,3 +64,98 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* GENERAL STYLES HERE */
+section {
+	margin: 0% 5%;
+}
+/* NAVBAR STYLES HERE */
+#navbar {
+	margin: 4% 4% 6% 4%;
+	width: 100%;
+}
+#navbar nav{
+	display: inline-block;
+	width: 70%;
+	text-align: center;
+}
+#navbar nav > a {
+	text-decoration: none;
+	padding: 0% 4%;
+	color: gray;
+	display: inline-block;
+}
+.anim:hover {
+	animation: jump 0.5s;
+	animation-timing-function: ease;
+}
+@keyframes jump {
+	0% {
+		transform: translate3D(0, 0, 0);
+	}
+	50% {
+		transform: translate3D(0, -30px, 0);
+	}
+	100% {
+		transform: translate3D(0, 0, 0);
+	}
+}
+#navbar img {
+	display: inline-block;
+	width: 18%;
+}
+/* HEADING STYLES HERE */
+#heading {
+	margin: 3% 5%;
+	padding: 5% 0%;
+	border-bottom: 1px solid black;
+}
+#heading-text {
+	display: inline-block;
+	width: 45%;
+	font-size: 70px;
+	text-align: center;
+	margin-right: 2%;
+	margin-bottom: 8%;
+}
+#heading-text p {
+	width: 25%;
+	padding: 5px 10px;
+	border: 1px solid black;
+	font-size: 15px;
+	margin: 0 auto;
+}
+#heading-img {
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+}
+
+/* FEATURES STYLES HERE */
+.big-container {
+	margin: 3% 0%;
+}
+.small-container {
+	display: inline-block;
+	width: 49%;
+}
+#features-img {
+	text-align: center;
+}
+#services, #product, #vision {
+	display: inline-block;
+	width: 31%;
+}
+.bot {
+	border-bottom: 1px solid black;
+	padding-bottom: 3%;
+}
+/* CONTACT STYLES HERE */
+address {
+	text-align: left;
+	margin-bottom: 3%;
+}
+#copyright {
+	margin: 5% 5% 10% 5%;
+	text-align: center;
+}
