@@ -139,6 +139,9 @@ section {
 	display: inline-block;
 	width: 49%;
 }
+#features-img {
+	text-align: center;
+}
 #services, #product, #vision {
 	display: inline-block;
 	width: 31%;
